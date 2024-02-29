@@ -1,6 +1,6 @@
 import React from 'react'
 import addNotification from 'react-push-notification'
-import { Notifications } from 'react-push-notification';
+/* import { Notifications } from 'react-push-notification'; */
 import myLogo from '../images/myLogo.jpg'
 import { Button } from 'react-bootstrap'
 import {useParams, useNavigate} from 'react-router-dom';
@@ -25,7 +25,7 @@ function SendNotifi(){
 
   return (
     <div>
-    <Notifications />
+    {/* <Notifications /> */}
     <Button onClick={ClickNotification}> Click to Notification </Button>
     </div>
   )
