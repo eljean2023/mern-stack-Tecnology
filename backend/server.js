@@ -229,6 +229,7 @@ socket.on('sendNotification', function(data){
 
 app.use('/uploads', express.static(path.join(__dirname, '/uploads')))
 app.use(express.static(path.join(__dirname, '/uploads')))
+app.use(express.static(path.join(__dirname, "build")))
 
 //Server Starting
 
