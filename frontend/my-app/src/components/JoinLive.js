@@ -3,7 +3,7 @@ import { RoomContext } from '../context/RoomContext';
 import {useNavigate, useParams} from 'react-router-dom'
 import VideoPlayerRoom from '../components/VideoPlayerRoom';
 import addNotification from 'react-push-notification'
-{/* import { Notifications } from 'react-push-notification'; */}
+/* import { Notifications } from 'react-push-notification'; */
 import myLogo from '../images/myLogo.jpg'
 import { Button, Form} from 'react-bootstrap'
 
