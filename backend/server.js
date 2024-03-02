@@ -224,6 +224,10 @@ socket.on('sendNotification', function(data){
 //})
 
 
+app.get('/', (req, res)=>{
+    res.send('The server is running thank you ')
+})
+
 
 //Static files
 
