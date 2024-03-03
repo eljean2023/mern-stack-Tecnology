@@ -9,7 +9,7 @@ import User from "peerjs"
 import { v4 as uuidV4 } from 'uuid'
 
 
-const WS = "http://127.0.0.1:3500"
+const WS = "https://mern-stacktecnoapp.onrender.com"
 
 export const RoomContext = createContext()
 
