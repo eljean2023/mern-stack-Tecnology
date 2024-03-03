@@ -20,7 +20,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
     const dispatch = useDispatch()
     const userDetails = useSelector(state=>state.userDetails)
-    const{loading, error, user} = userDetails
+    const{loading, error, user} = userDetails/
 useEffect(()=>{
     dispatch(productsActions())
 }, [dispatch])
