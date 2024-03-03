@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "proxy": "https://mern-stacktecnoapp.onrender.com/",
+  "proxy": "http://127.0.0.1:3500",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
