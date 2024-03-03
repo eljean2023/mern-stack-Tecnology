@@ -98,11 +98,7 @@ const App = ()=> {
 
       <Route path="/rev" element={<RecordView/>}></Route>
 
-      
- 
-
-    
-      </Routes>
+    </Routes>
     </Container>
       
     </main>
@@ -112,8 +108,5 @@ const App = ()=> {
       
   </>
 }
-
-
-      
 
 export default App;
