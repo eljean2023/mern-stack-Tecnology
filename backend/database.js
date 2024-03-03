@@ -10,7 +10,6 @@ mongoose.set('strictQuery', true);
 
 
 const MONGODB_URI =  process.env.MONGODB_URI
-console.log(" hellow" + MONGODB_URI)
 mongoose.connect(MONGODB_URI)
 
 .then(db =>console.log('mongo database is running', db.connection.host))
