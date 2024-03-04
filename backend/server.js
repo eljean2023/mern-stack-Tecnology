@@ -170,12 +170,6 @@ io.on('connection',(socket)=>{
   
 */
 
-
-const MONGODB_URI =  process.env.MONGODB_URI
-
-console.log("Here we go" + MONGODB_URI)
-
-
 var userNames = {};
 socket.on('sendNotification', function(data){
     var userName = data.name;

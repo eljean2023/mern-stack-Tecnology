@@ -1,17 +1,13 @@
 const mongoose =require('mongoose');
-
 mongoose.set('strictQuery', true);
 
 /*const URI_CON ='mongodb://127.0.0.1:27017/jwtData1'; */
 
 /*const MONGODB_URI ='mongodb://127.0.0.1:27017/justStars'; */
 
-const MONGODB_URI ="mongodb+srv://eljean2024:mern-technology.user2024!@cluster0.ttxex.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-
-
+const MONGODB_URI  = "mongodb+srv://eljean2024:mern-technology.user2024!@cluster0.ttxex.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 /* const MONGODB_URI =  process.env.MONGODB_URI */
-console.log("Here we go" + MONGODB_URI)
 mongoose.connect(MONGODB_URI)
 
 
