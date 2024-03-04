@@ -240,7 +240,7 @@ app.get('/', (req, res)=>{
 
 app.use('/uploads', express.static(path.join(__dirname, '/uploads')))
 app.use(express.static(path.join(__dirname, '/uploads')))
-app.use(express.static(path.join(__dirname, "build"))) 
+/*app.use(express.static(path.join(__dirname, "build"))) */ 
 
 //Server Starting
 
